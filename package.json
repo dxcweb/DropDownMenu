@@ -1,0 +1,32 @@
+{
+  "name": "drop-down-menu",
+  "version": "1.0.0",
+  "description": "",
+  "config": {
+    "port": 7202
+  },
+  "homepage": "https://github.com/dxcweb/drop-down-menu",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/dxcweb/drop-down-menu.git"
+  },
+  "main": "./lib",
+  "scripts": {
+    "build": "rc-tools run build",
+    "start": "rc-tools run server",
+    "css": "rc-tools run css",
+    "pub": "rc-tools run pub"
+  },
+  "devDependencies": {
+    "rc-tools": "^7.0.8",
+    "react": "^16.2.0",
+    "react-dom": "^16.2.0"
+  },
+  "files": ["assets", "examples", "lib", "src"],
+  "dependencies": {
+    "classnames": "^2.2.5",
+    "dxc-flex": "^1.0.3",
+    "fs-overlay": "^0.1.1",
+    "lodash": "^4.17.5"
+  }
+}

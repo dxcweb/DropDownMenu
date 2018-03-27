@@ -1,0 +1,20 @@
+.ddm-item-group {
+  height: 45px;
+  color: #919091;
+  background: #efefef;
+  border-left: 5px solid #efefef;
+  border-right: 5px solid #efefef;
+}
+.ddm-item-group.ddm-item-group-active {
+  color: #d74040;
+  background: #fff;
+  border-left: 5px solid #ff5000;
+  border-right: 5px solid #fff;
+}
+.ddm-item-group-icon {
+  transform: rotate(-90deg);
+  fill: #919091;
+}
+.ddm-item-group-active .ddm-item-group-icon {
+    fill: #ff5000;
+  }

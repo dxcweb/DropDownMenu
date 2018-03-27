@@ -1,0 +1,16 @@
+.dxc-drop-down-menu-popup {
+  position: absolute;
+  top: 46px;
+  left: 0;
+  right: 0;
+  background: #fff;
+  transition: all 0.3s ease;
+  transform-origin: 0% 0%;
+  opacity: 0;
+  transform: scaleY(0);
+  min-height: 100px;
+}
+.dxc-drop-down-menu-popup-active {
+  opacity: 1;
+  transform: scaleY(1);
+}
