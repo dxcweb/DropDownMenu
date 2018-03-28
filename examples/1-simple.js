@@ -18201,15 +18201,12 @@ var DownSvg = function (_React$Component) {
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_dxc_flex___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_1_dxc_flex__);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_2_classnames__ = __webpack_require__(10);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_2_classnames___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_2_classnames__);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__MenuItem_css__ = __webpack_require__(54);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__MenuItem_css___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_3__MenuItem_css__);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__CheckedSvg__ = __webpack_require__(55);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__CheckedSvg__ = __webpack_require__(52);
 function _classCallCheck(instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError("Cannot call a class as a function"); } }
 
 function _possibleConstructorReturn(self, call) { if (!self) { throw new ReferenceError("this hasn't been initialised - super() hasn't been called"); } return call && (typeof call === "object" || typeof call === "function") ? call : self; }
 
 function _inherits(subClass, superClass) { if (typeof superClass !== "function" && superClass !== null) { throw new TypeError("Super expression must either be null or a function, not " + typeof superClass); } subClass.prototype = Object.create(superClass && superClass.prototype, { constructor: { value: subClass, enumerable: false, writable: true, configurable: true } }); if (superClass) Object.setPrototypeOf ? Object.setPrototypeOf(subClass, superClass) : subClass.__proto__ = superClass; }
-
 
 
 
@@ -18233,7 +18230,7 @@ var MenuItem = function (_React$Component) {
         _onClick = _props.onClick,
         isActive = _props.isActive;
 
-    var itemClass = __WEBPACK_IMPORTED_MODULE_2_classnames___default()("ddm-item", (_classNames = {}, _classNames["ddm-item-active"] = isActive, _classNames));
+    var itemClass = __WEBPACK_IMPORTED_MODULE_2_classnames___default()("dxc-ddm-item", (_classNames = {}, _classNames["dxc-ddm-item-active"] = isActive, _classNames));
     return __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
       __WEBPACK_IMPORTED_MODULE_1_dxc_flex___default.a,
       {
@@ -18248,7 +18245,7 @@ var MenuItem = function (_React$Component) {
         { style: { flex: 1 } },
         data.title
       ),
-      isActive ? __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(__WEBPACK_IMPORTED_MODULE_4__CheckedSvg__["a" /* default */], { className: "ddm-item-active-icon" }) : null
+      isActive ? __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(__WEBPACK_IMPORTED_MODULE_3__CheckedSvg__["a" /* default */], { className: "dxc-ddm-item-active-icon" }) : null
     );
   };
 
@@ -18264,8 +18261,6 @@ var MenuItem = function (_React$Component) {
 "use strict";
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_react__ = __webpack_require__(0);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_react___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_0_react__);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__Scroll_css__ = __webpack_require__(56);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__Scroll_css___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_1__Scroll_css__);
 var _extends = Object.assign || function (target) { for (var i = 1; i < arguments.length; i++) { var source = arguments[i]; for (var key in source) { if (Object.prototype.hasOwnProperty.call(source, key)) { target[key] = source[key]; } } } return target; };
 
 function _classCallCheck(instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError("Cannot call a class as a function"); } }
@@ -18273,7 +18268,6 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
 function _possibleConstructorReturn(self, call) { if (!self) { throw new ReferenceError("this hasn't been initialised - super() hasn't been called"); } return call && (typeof call === "object" || typeof call === "function") ? call : self; }
 
 function _inherits(subClass, superClass) { if (typeof superClass !== "function" && superClass !== null) { throw new TypeError("Super expression must either be null or a function, not " + typeof superClass); } subClass.prototype = Object.create(superClass && superClass.prototype, { constructor: { value: subClass, enumerable: false, writable: true, configurable: true } }); if (superClass) Object.setPrototypeOf ? Object.setPrototypeOf(subClass, superClass) : subClass.__proto__ = superClass; }
-
 
 
 
@@ -18296,7 +18290,7 @@ var Scroll = function (_React$Component) {
   }
 
   Scroll.prototype.render = function render() {
-    return __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("div", _extends({ className: "ddm-scroll", onClick: this.onClickContainer }, this.props));
+    return __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("div", _extends({ className: "dxc-ddm-scroll", onClick: this.onClickContainer }, this.props));
   };
 
   return Scroll;
@@ -18323,7 +18317,7 @@ Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_react_dom___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_1_react_dom__);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_2_dxc_drop_down_menu__ = __webpack_require__(35);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_2_dxc_drop_down_menu___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_2_dxc_drop_down_menu__);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3_window_size__ = __webpack_require__(61);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3_window_size__ = __webpack_require__(56);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_3_window_size___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_3_window_size__);
 function _classCallCheck(instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError("Cannot call a class as a function"); } }
 
@@ -35728,6 +35722,9 @@ module.exports = __webpack_require__(36);
 "use strict";
 Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__Menu__ = __webpack_require__(37);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__assets_index_less__ = __webpack_require__(55);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__assets_index_less___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_1__assets_index_less__);
+
 
 /* harmony default export */ __webpack_exports__["default"] = (__WEBPACK_IMPORTED_MODULE_0__Menu__["a" /* default */]);
 
@@ -35744,8 +35741,6 @@ Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_3_fs_overlay__ = __webpack_require__(41);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_3_fs_overlay___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_3_fs_overlay__);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__MenuOption__ = __webpack_require__(44);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__Menu_css__ = __webpack_require__(60);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__Menu_css___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_5__Menu_css__);
 var _extends = Object.assign || function (target) { for (var i = 1; i < arguments.length; i++) { var source = arguments[i]; for (var key in source) { if (Object.prototype.hasOwnProperty.call(source, key)) { target[key] = source[key]; } } } return target; };
 
 function _classCallCheck(instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError("Cannot call a class as a function"); } }
@@ -35753,7 +35748,6 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
 function _possibleConstructorReturn(self, call) { if (!self) { throw new ReferenceError("this hasn't been initialised - super() hasn't been called"); } return call && (typeof call === "object" || typeof call === "function") ? call : self; }
 
 function _inherits(subClass, superClass) { if (typeof superClass !== "function" && superClass !== null) { throw new TypeError("Super expression must either be null or a function, not " + typeof superClass); } subClass.prototype = Object.create(superClass && superClass.prototype, { constructor: { value: subClass, enumerable: false, writable: true, configurable: true } }); if (superClass) Object.setPrototypeOf ? Object.setPrototypeOf(subClass, superClass) : subClass.__proto__ = superClass; }
-
 
 
 
@@ -35838,7 +35832,7 @@ var Menu = function (_React$PureComponent) {
       null,
       __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
         __WEBPACK_IMPORTED_MODULE_1_dxc_flex___default.a,
-        { className: "dxc-drop-down-menu" },
+        { className: "dxc-ddm" },
         this.renderChildren()
       ),
       __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(__WEBPACK_IMPORTED_MODULE_3_fs_overlay___default.a, { onClose: this.handleCloseOverlay, open: activeIndex !== null })
@@ -36221,19 +36215,15 @@ module.exports = exports['default'];
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_2_dxc_flex___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_2_dxc_flex__);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_3_lodash__ = __webpack_require__(18);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_3_lodash___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_3_lodash__);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__MenuOption_css__ = __webpack_require__(50);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__MenuOption_css___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_4__MenuOption_css__);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__DownSvg__ = __webpack_require__(19);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_6__Popdown__ = __webpack_require__(51);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_7__SingleColumn__ = __webpack_require__(53);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_8__TwoColumn__ = __webpack_require__(57);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__DownSvg__ = __webpack_require__(19);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__Popdown__ = __webpack_require__(50);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_6__SingleColumn__ = __webpack_require__(51);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_7__TwoColumn__ = __webpack_require__(53);
 function _classCallCheck(instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError("Cannot call a class as a function"); } }
 
 function _possibleConstructorReturn(self, call) { if (!self) { throw new ReferenceError("this hasn't been initialised - super() hasn't been called"); } return call && (typeof call === "object" || typeof call === "function") ? call : self; }
 
 function _inherits(subClass, superClass) { if (typeof superClass !== "function" && superClass !== null) { throw new TypeError("Super expression must either be null or a function, not " + typeof superClass); } subClass.prototype = Object.create(superClass && superClass.prototype, { constructor: { value: subClass, enumerable: false, writable: true, configurable: true } }); if (superClass) Object.setPrototypeOf ? Object.setPrototypeOf(subClass, superClass) : subClass.__proto__ = superClass; }
-
-
 
 
 
@@ -36276,9 +36266,9 @@ var MenuOption = function (_React$PureComponent) {
         type = data.type;
 
     if (type === "two-column") {
-      return __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(__WEBPACK_IMPORTED_MODULE_8__TwoColumn__["a" /* default */], { onChange: this.handleChange, value: value, data: children });
+      return __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(__WEBPACK_IMPORTED_MODULE_7__TwoColumn__["a" /* default */], { onChange: this.handleChange, value: value, data: children });
     } else {
-      return __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(__WEBPACK_IMPORTED_MODULE_7__SingleColumn__["a" /* default */], { onChange: this.handleChange, value: value, data: children });
+      return __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(__WEBPACK_IMPORTED_MODULE_6__SingleColumn__["a" /* default */], { onChange: this.handleChange, value: value, data: children });
     }
   };
 
@@ -36319,16 +36309,16 @@ var MenuOption = function (_React$PureComponent) {
         onClick: onClickOption,
         vertical: "center",
         horizontal: "center",
-        className: "dxc-menu-option"
+        className: "dxc-ddm-option"
       },
       __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
         "span",
         null,
         this.renderTitle()
       ),
-      __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(__WEBPACK_IMPORTED_MODULE_5__DownSvg__["a" /* default */], null),
+      __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(__WEBPACK_IMPORTED_MODULE_4__DownSvg__["a" /* default */], null),
       __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
-        __WEBPACK_IMPORTED_MODULE_6__Popdown__["a" /* default */],
+        __WEBPACK_IMPORTED_MODULE_5__Popdown__["a" /* default */],
         { isActive: isActive },
         this.renderType()
       )
@@ -37050,12 +37040,6 @@ module.exports = function(module) {
 
 /***/ }),
 /* 50 */
-/***/ (function(module, exports) {
-
-// removed by extract-text-webpack-plugin
-
-/***/ }),
-/* 51 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -37063,14 +37047,11 @@ module.exports = function(module) {
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_react___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_0_react__);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_classnames__ = __webpack_require__(10);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_classnames___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_1_classnames__);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__Popdown_css__ = __webpack_require__(52);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__Popdown_css___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_2__Popdown_css__);
 function _classCallCheck(instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError("Cannot call a class as a function"); } }
 
 function _possibleConstructorReturn(self, call) { if (!self) { throw new ReferenceError("this hasn't been initialised - super() hasn't been called"); } return call && (typeof call === "object" || typeof call === "function") ? call : self; }
 
 function _inherits(subClass, superClass) { if (typeof superClass !== "function" && superClass !== null) { throw new TypeError("Super expression must either be null or a function, not " + typeof superClass); } subClass.prototype = Object.create(superClass && superClass.prototype, { constructor: { value: subClass, enumerable: false, writable: true, configurable: true } }); if (superClass) Object.setPrototypeOf ? Object.setPrototypeOf(subClass, superClass) : subClass.__proto__ = superClass; }
-
 
 
 
@@ -37089,8 +37070,8 @@ var Popup = function (_React$Component) {
         isActive = _props.isActive,
         children = _props.children;
 
-    var optionClassName = __WEBPACK_IMPORTED_MODULE_1_classnames___default()("dxc-drop-down-menu-popup", {
-      "dxc-drop-down-menu-popup-active": isActive
+    var optionClassName = __WEBPACK_IMPORTED_MODULE_1_classnames___default()("dxc-ddm-popup", {
+      "dxc-ddm-popup-active": isActive
     });
     return __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
       "div",
@@ -37105,13 +37086,7 @@ var Popup = function (_React$Component) {
 /* harmony default export */ __webpack_exports__["a"] = (Popup);
 
 /***/ }),
-/* 52 */
-/***/ (function(module, exports) {
-
-// removed by extract-text-webpack-plugin
-
-/***/ }),
-/* 53 */
+/* 51 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -37176,13 +37151,7 @@ var SingleColumn = function (_React$Component) {
 /* harmony default export */ __webpack_exports__["a"] = (SingleColumn);
 
 /***/ }),
-/* 54 */
-/***/ (function(module, exports) {
-
-// removed by extract-text-webpack-plugin
-
-/***/ }),
-/* 55 */
+/* 52 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -37224,13 +37193,7 @@ var CheckedSvg = function (_React$Component) {
 /* harmony default export */ __webpack_exports__["a"] = (CheckedSvg);
 
 /***/ }),
-/* 56 */
-/***/ (function(module, exports) {
-
-// removed by extract-text-webpack-plugin
-
-/***/ }),
-/* 57 */
+/* 53 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -37239,7 +37202,7 @@ var CheckedSvg = function (_React$Component) {
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_dxc_flex__ = __webpack_require__(3);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_dxc_flex___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_1_dxc_flex__);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__MenuItem__ = __webpack_require__(20);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__MenuGroup__ = __webpack_require__(58);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__MenuGroup__ = __webpack_require__(54);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_4_lodash__ = __webpack_require__(18);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_4_lodash___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_4_lodash__);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__Scroll__ = __webpack_require__(21);
@@ -37251,7 +37214,6 @@ function _inherits(subClass, superClass) { if (typeof superClass !== "function" 
 
 
 
-// import ListView from "./ListView";
 
 
 
@@ -37376,7 +37338,7 @@ var TwoColumn = function (_React$Component) {
 /* harmony default export */ __webpack_exports__["a"] = (TwoColumn);
 
 /***/ }),
-/* 58 */
+/* 54 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -37386,15 +37348,12 @@ var TwoColumn = function (_React$Component) {
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_dxc_flex___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_1_dxc_flex__);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_2_classnames__ = __webpack_require__(10);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_2_classnames___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_2_classnames__);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__MenuGroup_css__ = __webpack_require__(59);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__MenuGroup_css___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_3__MenuGroup_css__);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__DownSvg__ = __webpack_require__(19);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__DownSvg__ = __webpack_require__(19);
 function _classCallCheck(instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError("Cannot call a class as a function"); } }
 
 function _possibleConstructorReturn(self, call) { if (!self) { throw new ReferenceError("this hasn't been initialised - super() hasn't been called"); } return call && (typeof call === "object" || typeof call === "function") ? call : self; }
 
 function _inherits(subClass, superClass) { if (typeof superClass !== "function" && superClass !== null) { throw new TypeError("Super expression must either be null or a function, not " + typeof superClass); } subClass.prototype = Object.create(superClass && superClass.prototype, { constructor: { value: subClass, enumerable: false, writable: true, configurable: true } }); if (superClass) Object.setPrototypeOf ? Object.setPrototypeOf(subClass, superClass) : subClass.__proto__ = superClass; }
-
 
 
 
@@ -37417,8 +37376,8 @@ var MenuGroup = function (_React$Component) {
         isActive = _props.isActive,
         showIcon = _props.showIcon;
 
-    var itemClass = __WEBPACK_IMPORTED_MODULE_2_classnames___default()("ddm-item-group", {
-      "ddm-item-group-active": isActive
+    var itemClass = __WEBPACK_IMPORTED_MODULE_2_classnames___default()("dxc-ddm-item-group", {
+      "dxc-ddm-item-group-active": isActive
     });
     return __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
       __WEBPACK_IMPORTED_MODULE_1_dxc_flex___default.a,
@@ -37434,7 +37393,7 @@ var MenuGroup = function (_React$Component) {
         { horizontal: "center", style: { flex: 1 } },
         data.title
       ),
-      showIcon ? __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(__WEBPACK_IMPORTED_MODULE_4__DownSvg__["a" /* default */], { size: 18, className: "ddm-item-group-icon" }) : null
+      showIcon ? __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(__WEBPACK_IMPORTED_MODULE_3__DownSvg__["a" /* default */], { size: 18, className: "dxc-ddm-item-group-icon" }) : null
     );
   };
 
@@ -37444,19 +37403,13 @@ var MenuGroup = function (_React$Component) {
 /* harmony default export */ __webpack_exports__["a"] = (MenuGroup);
 
 /***/ }),
-/* 59 */
+/* 55 */
 /***/ (function(module, exports) {
 
 // removed by extract-text-webpack-plugin
 
 /***/ }),
-/* 60 */
-/***/ (function(module, exports) {
-
-// removed by extract-text-webpack-plugin
-
-/***/ }),
-/* 61 */
+/* 56 */
 /***/ (function(module, exports, __webpack_require__) {
 
 /* WEBPACK VAR INJECTION */(function(process) {/*
@@ -37467,7 +37420,7 @@ var MenuGroup = function (_React$Component) {
  * Licensed under the MIT license.
  */
 
-const tty = __webpack_require__(62)
+const tty = __webpack_require__(57)
 
 module.exports = (function() {
   var width;
@@ -37495,7 +37448,7 @@ module.exports = (function() {
 /* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(1)))
 
 /***/ }),
-/* 62 */
+/* 57 */
 /***/ (function(module, exports) {
 
 exports.isatty = function () { return false; };
