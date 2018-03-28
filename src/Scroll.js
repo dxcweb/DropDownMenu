@@ -1,5 +1,4 @@
 import React from "react";
-import './Scroll.css'
 
 export default class Scroll extends React.Component {
   onClickContainer = e => {
@@ -7,6 +6,6 @@ export default class Scroll extends React.Component {
     e.stopPropagation();
   };
   render() {
-    return <div className="ddm-scroll" onClick={this.onClickContainer} {...this.props} />;
+    return <div className="dxc-ddm-scroll" onClick={this.onClickContainer} {...this.props} />;
   }
 }

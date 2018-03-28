@@ -1,9 +1,9 @@
+
 import React from "react";
 import Block from "dxc-flex";
 import Interval from "./Interval";
 import Overlay from "fs-overlay";
 import MenuOption from "./MenuOption";
-import "./Menu.css";
 
 export default class Menu extends React.PureComponent {
   state = {
@@ -59,7 +59,7 @@ export default class Menu extends React.PureComponent {
     const { activeIndex } = this.state;
     return (
       <div>
-        <Block className="dxc-drop-down-menu">{this.renderChildren()}</Block>
+        <Block className="dxc-ddm">{this.renderChildren()}</Block>
         <Overlay onClose={this.handleCloseOverlay} open={activeIndex !== null} />
       </div>
     );

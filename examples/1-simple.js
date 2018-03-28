@@ -1,7 +1,7 @@
 import React from "react";
 import ReactDOM from "react-dom";
 
-import Menu from "drop-down-menu";
+import Menu from "dxc-drop-down-menu";
 import { height } from "window-size";
 
 class Demo extends React.Component {

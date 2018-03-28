@@ -2,8 +2,6 @@ import React from "react";
 import PropTypes from "prop-types";
 import Block from "dxc-flex";
 import { find } from "lodash";
-
-import "./MenuOption.css";
 import DownSvg from "./DownSvg";
 import Popdown from "./Popdown";
 import SingleColumn from "./SingleColumn";
@@ -55,7 +53,7 @@ export default class MenuOption extends React.PureComponent {
         onClick={onClickOption}
         vertical="center"
         horizontal="center"
-        className="dxc-menu-option"
+        className="dxc-ddm-option"
       >
         <span>{this.renderTitle()}</span>
         <DownSvg />

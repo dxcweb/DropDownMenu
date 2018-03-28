@@ -1,6 +1,5 @@
 import React from "react";
 import Block from "dxc-flex";
-// import ListView from "./ListView";
 import MenuItem from "./MenuItem";
 import MenuGroup from "./MenuGroup";
 import { findIndex } from "lodash";

@@ -1,6 +1,6 @@
 {
-  "name": "drop-down-menu",
-  "version": "1.0.0",
+  "name": "dxc-drop-down-menu",
+  "version": "1.0.1",
   "description": "",
   "config": {
     "port": 7202
